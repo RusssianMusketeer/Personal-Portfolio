@@ -1,0 +1,95 @@
+
+    
+.flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    align-items: flex-end;
+    
+
+    .presentation-container{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-right: 5rem;
+
+    .presentation-phrase{
+        text-align: start;
+        font-size: 3.4rem;
+        letter-spacing: -1.2px;
+        color: #33323D;
+    }
+
+    .homepage-button{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        border: none;
+        padding: 0;
+        background-color: none;
+         
+
+        .arrow-down{
+            padding: 0.5rem;
+            height: 49.65px;
+            display: flex;
+            align-items: center;
+            background-color: #1C3444;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            transition: background-color 0.4s ease;
+
+        }
+
+        .about-me-button{
+            color: white;
+            background-color: #203A4C;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100%;
+            padding: 0 6rem;
+            font-family: 'Public Sans',sans-serif;
+            white-space: nowrap;
+            font-weight: 600;
+            letter-spacing: 1.4px;
+            transition: background-color 0.4s ease;
+
+        
+        }
+
+        &:hover .about-me-button{
+            background-color:#5FB4A2!important;
+            cursor: pointer;
+            transition: background-color 0.4s ease; 
+        }
+
+        &:hover .arrow-down{
+            background-color:#4D9B8B!important;
+            cursor: pointer;
+            transition: background-color 0.4s ease;
+            
+            
+        }
+
+        &:hover g{
+            stroke:white!important;
+            cursor: pointer;
+            transition: stroke 0.4s ease;
+            
+        }
+        g {
+            transition: stroke 0.4s ease;
+        }
+
+    
+    }
+
+    }
+
+
+}

@@ -1,0 +1,22 @@
+.button-container {
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    font-family: 'Public Sans', sans-serif;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    color:#33323D ;
+    transition: background-color 0.5s ease;
+    font-weight:500;
+    letter-spacing: 2px;
+    width: fit-content;
+
+    &:hover {
+        transition: background-color 0.5s ease;
+        background-color: #33323D;
+        color: #fafafa;
+        cursor: pointer;
+        
+    }
+}

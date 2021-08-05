@@ -1,0 +1,15 @@
+.container-info {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10rem;
+
+    .text-button-container{
+        text-align: left;
+        width: 30%;
+        margin: 0 auto;
+        border-block-color: #DCDCDE;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+}

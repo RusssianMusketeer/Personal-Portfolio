@@ -1,0 +1,23 @@
+.action-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 5rem auto;
+    align-items: center;
+
+    .interested {
+        color: #33323D;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        max-width: 19rem;
+        min-width: 19rem;
+        font-weight: 700;
+    }
+
+    .action-line {
+        width: 55%;
+        height: 2px;
+        border: 0 none;
+        background-color:#EAEAEB;
+    }
+}

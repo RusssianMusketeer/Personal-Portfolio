@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import { Switch, Route, } from 'react-router';
+import React, { Component } from 'react';
 import './App.css';
+import Header from './components/header/header.component';
+import { GlobalStyles } from './global.styles';
+import HomePage from './pages/homepage/homepage.component';
+import Footer from './components/footer/footer.component';
+import CallToAction from './components/call-to-action/call-to-action.component';
+import IMAGE_DATA from './image-data.data';
 
-function App() {
-  return (
+
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      images: IMAGE_DATA,
+    };
+  }
+  render () {
+
+   
+    
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GlobalStyles/>
+      <Header/>
+      <Switch>
+        <Route exact path='/'><HomePage images={this.state.images}/> </Route>
+        <Route exact path='/portfolio' />
+        <Route exact path='/contact' />
+      </Switch>
+      <CallToAction />
+      <Footer/>
     </div>
-  );
+    )
+  }
+
 }
 
 export default App;
