@@ -29,6 +29,10 @@
             margin: 0 auto;
             bottom: 41rem;
             position: relative;
+
+            @media(max-width:550px){
+              bottom: 47rem;
+            }
             .title {
               position: relative;
               width: 70%;
