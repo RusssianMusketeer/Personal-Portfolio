@@ -1,8 +1,5 @@
 import './homepage.styles.scss';
-import FrontImage from '../../components/front-image/front-image.component';
-import { ReactComponent as DownArrow} from '../../assets/buttonarrows.svg';
 import ContainerInfo from '../../components/container-info/container-info.component';
-import { Link, Element } from 'react-scroll';
 import { motion } from 'framer-motion';
 import CallToAction from '../../components/call-to-action/call-to-action.component'
 import { ReactComponent as MovingImage} from '../../assets/moving-image.svg';
@@ -26,9 +23,9 @@ const HomePage = ({images,button,text}) => (
         </div>
 
         </div>
-        <Element name='containerInformation'>
+        
         <ContainerInfo home={'home'} route={'/portfolio'} images={images.about_me.src} button={button[0]} text={text.about_me}/> 
-        </Element>
+        
         <CallToAction />
     </div>
     </motion.div>
