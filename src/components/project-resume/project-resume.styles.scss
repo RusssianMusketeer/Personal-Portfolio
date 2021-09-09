@@ -1,0 +1,121 @@
+.resume {
+    height: fit-content;
+    padding-bottom: 4rem;
+    width: 90%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
+    @media(max-width:950px){
+        width: 100%;
+        }
+
+    .description{
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+    opacity: .8;
+
+    @media(max-width:450px){
+        font-size: 0.95rem;
+        }
+
+    }
+
+    .tech{
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 1.1rem;
+
+    @media(max-width:375px){
+        font-size: 0.9rem;
+    }
+    }
+
+    .crown-clothing-title{
+        color: #33323D;
+        @media(max-width:450px){
+            font-size: 1.5rem;
+        }
+
+        @media(max-width:375px){
+            font-size: 1.3rem;
+        }
+    }
+
+
+    .visit-website {
+        border-radius: 0px;
+        border-style: solid;
+        border-color: black;
+        border-width: thin;
+        font-family: 'Public Sans', sans-serif;
+        padding: 1rem 2rem;
+        white-space: nowrap;
+        color:#33323D ;
+        transition: background-color 0.5s ease;
+        font-weight:500;
+        letter-spacing: 2px;
+        width: fit-content;
+        background-color: #FAFAFA;
+        margin-right: 2rem;
+
+    
+        &:hover {
+            transition: background-color 0.5s ease;
+            background-color: #33323D;
+            color: #fafafa;
+            cursor: pointer;
+            
+        }
+
+        @media(max-width:500px){
+            font-size: 0.7rem;
+            padding: 0.7rem 1.2rem;
+        }
+
+        @media(max-width:360px){
+            font-size: 0.6rem;
+            padding: 0.6rem 1.1rem;
+        }
+
+        @media(max-width:315px){
+            font-size: 0.5rem;
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .skill-description{
+        display: grid;
+        margin-top: 2rem;
+
+        .skill-icons{
+            
+            align-self: center;
+            margin-left: 1rem;
+            
+                svg{
+                    height: 2.5rem;
+                    margin-right: 1.5rem;
+                    width: fit-content;
+                    margin-bottom: 0.5rem;
+                     transform: .2s; 
+
+                    @media(max-width:950px) {
+                    height: 2rem;
+                        }
+
+                        @media(max-width:475px) {
+                            height: 1.7rem;
+                                }
+                    }
+
+                    
+        }
+    }
+
+    .crown-buttons {
+        margin-top: 3rem;
+    }
+
+}

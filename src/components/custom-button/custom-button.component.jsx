@@ -1,10 +1,14 @@
 import React from 'react';
 import './custom-button.styles.scss';
+import { Link} from 'react-router-dom';
 
-const CustomButton = ({ children}) => (
-    <div className='button-container' >
+
+const CustomButton = ({ children,route,message}) => (
+    
+    <Link className={message ? 'button-container-message': 'button-container'} to={route} >
         {children}
-    </div>
+             
+    </Link>
 )
 
 export default CustomButton;

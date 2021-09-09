@@ -1,0 +1,11 @@
+.portfolio-container{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media(max-width:950px){
+        grid-template-columns: 1fr;
+    }
+}

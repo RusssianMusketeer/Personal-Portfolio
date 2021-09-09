@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
 body{
     font-family: 'Public Sans Regular';
     background-color:#FAFAFA;
+    overflow-x: hidden;
 }
 p{
     font-family: 'Public Sans', sans-serif;

@@ -6,6 +6,7 @@
     font-family: 'Public Sans', sans-serif;
     padding: 1rem 2rem;
     white-space: nowrap;
+    background-color: #FAFAFA;
     color:#33323D ;
     transition: background-color 0.5s ease;
     font-weight:500;
@@ -16,6 +17,30 @@
         transition: background-color 0.5s ease;
         background-color: #33323D;
         color: #fafafa;
+        cursor: pointer;
+        
+    }
+}
+
+.button-container-message {
+    border-radius: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    font-family: 'Public Sans', sans-serif;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+    color:#fafafa; ;
+    transition: background-color 0.5s ease;
+    font-weight:500;
+    letter-spacing: 2px;
+    width: fit-content;
+    background-color: #203A4C;
+
+    &:hover {
+        transition: background-color 0.5s ease;
+        background-color: #fafafa;
+        color: #203A4C;
         cursor: pointer;
         
     }

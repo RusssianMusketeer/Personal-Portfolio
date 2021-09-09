@@ -1,0 +1,93 @@
+.get-in-contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+    @media(max-width: 1024px) {
+      display: block;
+  }
+
+    .get-in-contact-title{
+        margin:0;
+        font-size: 3rem;
+        color: #33323D;
+        margin-bottom: 2rem;
+        @media(max-width: 335px) {
+          font-size: 2rem;
+      }
+    }
+
+    .get-in-contact-form{
+      form{
+          display: grid;
+
+          input{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-family: 'Public Sans', sans-serif;
+            padding: .9rem 1rem;
+            background-color: #E5E5E6;
+            border:none;
+            
+            &:focus {
+                transition: outline 0.5s ease;
+                outline: 1px solid #5FB4A2;  
+               }
+          }
+
+          label{
+            font-size: 0.8rem;
+            letter-spacing: 0;
+            color: #33323D;
+            font-family: 'Public Sans',sans-serif;
+            font-weight: 600;
+          }
+          textarea{
+              height: 6rem;
+              margin-top: 1rem;
+              margin-bottom: 3rem;
+              font-family: 'Public Sans', sans-serif;
+              padding: .9rem 1rem;
+              background-color: #E5E5E6;
+              border:none;
+              resize: none;
+
+              &:focus {
+                transition: outline 0.5s ease;
+                outline: 1px solid #5FB4A2;  
+               }
+          }
+          
+          .send-message{
+          background-color: #203A4C !important;
+          }
+      }
+      .button-container-message {
+        border-radius: 0px;
+        border-style: solid;
+        border-color: black;
+        border-width: thin;
+        font-family: 'Public Sans', sans-serif;
+        padding: 1rem 2rem;
+        white-space: nowrap;
+        color:#fafafa; ;
+        transition: background-color 0.5s ease;
+        font-weight:500;
+        letter-spacing: 2px;
+        width: fit-content;
+        background-color: #203A4C;
+    
+        &:hover {
+            transition: background-color 0.5s ease;
+            background-color: #fafafa;
+            color: #203A4C;
+            cursor: pointer;
+            
+        }
+    }
+    }
+}

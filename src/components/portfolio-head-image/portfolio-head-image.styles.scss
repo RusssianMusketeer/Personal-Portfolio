@@ -1,0 +1,25 @@
+.carousel-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+
+    @media(max-width:600px){
+        margin-top: 4rem;
+    margin-bottom: 3rem;
+    }
+
+    @media(max-width:400px){
+        margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    }
+
+    :hover .carousel.carousel-slider .control-arrow{
+        background-color: #33323D;
+        }
+
+        .carousel-image{
+            border: 3px solid #EAEAEB !important;
+        }
+}
+

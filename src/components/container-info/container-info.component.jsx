@@ -4,12 +4,15 @@ import ContainerImage from '../container-image/container-image.component';
 import ContainerText from '../container-text/container-text.component';
 import CustomButton from '../custom-button/custom-button.component';
 
-const ContainerInfo = ({images}) => (
-    <section className='container-info'>
-        <ContainerImage image={images.about_me.src}/>
-        <div className='text-button-container'>
-        <ContainerText/>
-        <CustomButton>GO TO PORTFOLIO</CustomButton>
+const ContainerInfo = ({images,button,text,route,home,portfolio}) => (
+    <section className={portfolio==="portfolio" ? 'container-info-portfolio':  'container-info'}>
+
+        <ContainerImage image={images} home={home}/>
+        <div className={home==="home" ? 'text-button-container': 'text-button-portfolio'}>
+        <ContainerText text={text}/>
+        <div className="portfolio-button">
+        <CustomButton  route={route}>{button}</CustomButton>
+        </div>
         </div>
         
 

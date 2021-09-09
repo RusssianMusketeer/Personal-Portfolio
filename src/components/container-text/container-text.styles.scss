@@ -5,12 +5,25 @@
     max-width: 19rem;
     min-width: 19rem;
     font-weight: 700;
-}
+    white-space: nowrap;
+    z-index: 20;
+    @media (max-width: 350px){
+        font-size: 2rem;
+    }
 
+        }
 .about-text{
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 0;
     opacity: .8;
     margin-bottom: 2rem;
+
+    @media (max-width: 950px){
+        font-size: 0.95rem;
+    }
+
+    @media (max-width: 325px){
+        font-size: 0.65rem;
+    }
 }

@@ -1,17 +1,18 @@
 import React from 'react';
 import './footer.styles.scss';
 import { ReactComponent as Github} from '../../assets/github.svg';
-import { ReactComponent as Logo} from '../../assets/logo.svg';
 import { ReactComponent as LinkedIn} from '../../assets/linkedin.svg';
 import { NavLink} from 'react-router-dom';
+import { ReactComponent as LogoPersonal} from '../../assets/Arseni_logo_2.svg';
 
 const Footer = () => (
 <footer>
         <div className='footer-container'>
             <div className='footer-logo-choice-container'>
-             <Logo className ='choice-logo'/>
+             <LogoPersonal className ='choice-logo'/>
              <NavLink className ='choice' to='/'> HOME </NavLink>
              <NavLink className ='choice' to='/portfolio'> PORTFOLIO </NavLink>
+             <NavLink className ='choice' to='/skills'> SKILLS </NavLink>
              <NavLink className ='choice' to='/contact'> CONTACT ME </NavLink>
             </div>
             <div className='socials'>

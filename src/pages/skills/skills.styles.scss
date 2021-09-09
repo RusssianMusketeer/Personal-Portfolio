@@ -1,0 +1,97 @@
+.skills-section{
+    margin-bottom: 10rem;
+    .skills-container{
+    margin: 0 auto;
+    width: 90%;
+    .skills-title{
+        color: #33323D;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        margin-top: 7rem;
+        text-align: left;
+    }
+
+    .skills-text{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        letter-spacing: 0;
+        opacity: .8;
+        text-align: left;
+    }
+
+    .skill-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+
+    @media(max-width:1050px){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @media(max-width:750px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media(max-width:550px){
+        grid-template-columns: 1fr 1fr;
+    }
+    @media(max-width:350px){
+        grid-template-columns: 1fr;
+    }
+
+        @keyframes wobble-hor-bottom {
+            0%,
+            100% {
+              -webkit-transform: translateX(0%);
+                      transform: translateX(0%);
+              -webkit-transform-origin: 50% 50%;
+                      transform-origin: 50% 50%;
+            }
+            15% {
+              -webkit-transform: translateX(-30px) rotate(-6deg);
+                      transform: translateX(-30px) rotate(-6deg);
+            }
+            30% {
+              -webkit-transform: translateX(15px) rotate(6deg);
+                      transform: translateX(15px) rotate(6deg);
+            }
+            45% {
+              -webkit-transform: translateX(-15px) rotate(-3.6deg);
+                      transform: translateX(-15px) rotate(-3.6deg);
+            }
+            60% {
+              -webkit-transform: translateX(9px) rotate(2.4deg);
+                      transform: translateX(9px) rotate(2.4deg);
+            }
+            75% {
+              -webkit-transform: translateX(-6px) rotate(-1.2deg);
+                      transform: translateX(-6px) rotate(-1.2deg);
+            }
+          }
+
+          .wobble-hor-bottom:hover svg {
+
+            -webkit-animation: wobble-hor-bottom 1.2s both;
+                    animation: wobble-hor-bottom 1.2s both;
+
+        }
+          
+
+        .hover-icons{
+                height: 100px;
+                width: 100px;
+                margin: 0 2rem;
+
+                @media(max-width:1050px) {
+                    margin-top: 1rem;
+                }
+        
+
+                @media(max-width:380px) {
+                    height: 75px;
+                    width: 75px;
+                }
+                
+            }
+        }
+    }
+
+}

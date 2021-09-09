@@ -1,9 +1,11 @@
 import React from 'react';
 import './container-image.styles.scss';
 
-const ContainerImage =({image}) => (
- <img className="container-image" src ={image} alt='about-me'>
- </img>
+const ContainerImage =({image,home}) => (
+
+<div className={home==="home" ? 'container-image-home': 'containe-image-portfolio'} style ={{backgroundImage: "url(" + image + ")"}} alt='about-me'>   
+ 
+ </div> 
 )
 
 export default ContainerImage;

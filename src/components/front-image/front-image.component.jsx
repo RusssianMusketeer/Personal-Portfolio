@@ -1,9 +1,9 @@
 import React from 'react';
-import './front-image.styles.scss';
+import { ImageHomepage } from './front-image.styles';
 
 
 const FrontImage = ({images}) => (
-                <img  className = 'image-homepage' src ={images}  alt=''></img>
+                <ImageHomepage {...images} />
      
 );
 

@@ -1,9 +1,13 @@
 .action-container {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     margin: 5rem auto;
     align-items: center;
+
+    @media(max-width:750px){
+        flex-direction:column;
+    }
 
     .interested {
         color: #33323D;
@@ -12,12 +16,31 @@
         max-width: 19rem;
         min-width: 19rem;
         font-weight: 700;
-    }
+        text-align: left;
 
+        @media(max-width:750px){
+            margin-bottom: 3rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        @media(max-width:350px){
+            font-size: 1.8rem;
+    }
+}   
+
+    .action-line-container{
+
+        width: 100%;
     .action-line {
-        width: 55%;
-        height: 2px;
+        width: 90%;
+        height: 1px;
         border: 0 none;
-        background-color:#EAEAEB;
+        background-color:black;
+
+        @media(max-width:750px){
+            display: none;
+        }
+    }
     }
 }

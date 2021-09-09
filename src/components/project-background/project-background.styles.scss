@@ -1,0 +1,91 @@
+
+.project_background{
+    width: 90%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    justify-self: right;
+
+    @media(max-width:950px){
+        border-top: none;
+        width: 100%;
+    }
+
+    h1{
+        font-weight: 400;
+    }
+
+    .project-background-title{
+        color: #33323D;
+        font-weight: bold;
+        @media(max-width:450px){
+            font-size: 1.5rem;
+        }
+
+        @media(max-width:375px){
+            font-size: 1.3rem;
+        }
+    }
+    
+    .project_text{
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 0;
+        opacity: .8;
+        
+        @media(max-width:450px){
+            font-size: 0.95rem;
+            }
+    
+    }
+
+    .static-preview{
+    background-image: url("https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/crown-clothing-ecommerce-store_optimized.herokuapp.com_+(1).png");
+    width: 100%;
+    height: 33.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 2rem;
+
+    @media(max-width:1250px) {
+        height:29.25rem;
+    }
+
+    @media(max-width:1100px) {
+        height:25.25rem;
+    }
+
+    @media(max-width:950px) {
+        height:21.25rem;
+    }
+
+    @media(max-width:800px) {
+        height:19.25rem;
+    }
+
+    @media(max-width:700px) {
+        height:17.25rem;
+    }
+
+    @media(max-width:650px) {
+        height:14.25rem;
+    }
+
+    @media(max-width:550px) {
+        width: 100%;
+    }
+
+    @media(max-width:450px) {
+        height: 13rem;
+    }
+
+    @media(max-width:400px) {
+        height: 11.5rem;
+    }
+
+
+    
+   
+}
+
+}

@@ -1,24 +1,54 @@
 footer {
     width: 100%;
     background-color: #33323D;
-
+    @media(min-width:735px){
+        
+        align-self: self-end;
+    }
+    
     .footer-container {
+    max-width: 79rem;
     height: 70px;
-    width: 80%;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     justify-content:space-between;
     flex-direction: row;
 
-        .footer-logo-choice-container {
-        width: 50%;
+    @media(max-width:750px){
+        display:grid;
+        justify-content: center;
         height: 100%;
-        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+        .footer-logo-choice-container {
+        width: 40%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-items: center;
-        justify-content: flex-start;
-            .choice-logo{
+        white-space: nowrap;
+
+        @media(max-width:750px){
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: none;
+            
+        }
+
+            
+        .choice-logo{
                 
-                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(353deg) brightness(105%) contrast(101%);
+                justify-self: center;
+                height: 60px;
+                width: 5rem;
+                g{
+                    fill: white;
+                }
+                line{
+                    stroke: white;
+                }
             }
             
             .choice{
@@ -42,28 +72,42 @@ footer {
         }
 
         .socials{           
-        width: 50%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        padding-right: 10px;
+
+        @media(max-width:750px){
+            margin:0 auto;
+            width: auto;
+            padding-right: 0;
+        }
 
             .social{
                 padding: 10px 10px;
                 cursor: pointer;
+                
+
+                    svg{
+                        filter: none !important;
+                        fill: white;
+                        
+                        &:hover path{
+                        
+                        fill:#5FB4A2!important;
+                        transition: fill 0.5s ease; 
+                        }
+                    
+                        path{transition: fill 0.5s ease;}
+                    }
+                    
+                
             }
         }
     }
 }
 
-.icon{
-    transition: fill 0.5s ease; 
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(353deg) brightness(105%) contrast(101%);
-     
-&:hover {
-    fill:#5FB4A2!important;
-    filter: none !important;
-    transition: filter 0.5s ease; 
-    
-  }
-}
+
+
+
