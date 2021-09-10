@@ -14,6 +14,7 @@ import {withRouter} from 'react-router-dom'
 import CrownClothing from './pages/portfolio-detail-01-crown-clothing/portfolio-detail-01-crown-clothing.component';
 import ThankYou from './pages/thank-you/thank-you.component';  
 import Skills from './pages/skills/skills.component';
+import ScrollToTop from './components/scroll-to-top/scroll-to-top.component';
 
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
       <GlobalStyles/>
       <Header/>
       <AnimatePresence exitBeforeEnter initial={false}>
+        <ScrollToTop/>
       <Switch  key={location.pathname} location={location}>
         <Route exact path='/'><HomePage images={images} button={button_text} text={description_text}/> </Route>
         <Route exact path='/portfolio'><PortfolioIndex images={images} button={button_text} text={description_text}/> </Route>
@@ -47,6 +49,7 @@ class App extends Component {
         <Route exact path='/thank-you'><ThankYou/></Route>
         <Route exact path='/skills'><Skills/></Route>
       </Switch>
+      
       </AnimatePresence>
       </div>
       <Footer/>

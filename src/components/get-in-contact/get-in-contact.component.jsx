@@ -17,7 +17,7 @@ const GetInContact = ()=> (
                 <label for="fname">Message</label>
                 <textarea name="text" className="message" type="text" placeholder="How can I help ?"></textarea>
                 <button className="button-container-message" message={true} type="submit">Send Message</button>
-                <input type="hidden" name="_next" value="http://localhost:3000/thank-you"></input>
+                <input type="hidden" name="_next" value="https://www.arsenidmitriev.com/thank-you"></input>
             </form>
                   
         </div>
