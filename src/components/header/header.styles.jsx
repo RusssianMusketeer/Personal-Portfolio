@@ -31,6 +31,7 @@ margin-left: 4.5%;
 .green-logo{
     height:85px;
     margin-top: 10px;
+    width: -webkit-fill-available;
 
     @media(max-width:525px){
         height:65px; 
@@ -43,7 +44,7 @@ margin-left: 4.5%;
 
 svg{
     height:50px;
-    width: fit-content;
+    
 
     @media(max-width:400px){
         height:40px;
