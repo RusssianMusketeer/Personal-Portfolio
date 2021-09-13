@@ -7,6 +7,7 @@ import { Twirl as Humburger } from 'hamburger-react'
 
 
 const HamburgerMenu = (hamburgerOpen ) => {
+  
     return (
     <Hamburger >
     <Humburger

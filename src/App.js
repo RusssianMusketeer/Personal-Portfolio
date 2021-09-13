@@ -17,6 +17,7 @@ import Skills from './pages/skills/skills.component';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top.component';
 
 
+
 class App extends Component {
   constructor() {
 
