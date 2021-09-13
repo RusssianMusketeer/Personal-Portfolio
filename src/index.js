@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration.js';
+import * as serviceWorker from './serviceWorkerRegistration.js';
 
 
 ReactDOM.render(
@@ -20,4 +20,4 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-serviceWorkerRegistration.register();
+serviceWorker.register();
