@@ -8,6 +8,10 @@
     @media(max-width:950px){
         width: 100%;
         }
+        @media(max-width:350px){
+            width: 90%;
+            
+            }
 
     .description{
     font-size: 1rem;
@@ -35,11 +39,11 @@
     .crown-clothing-title{
         color: #33323D;
         @media(max-width:450px){
-            font-size: 1.5rem;
+            font-size: 2.2rem;
         }
 
         @media(max-width:375px){
-            font-size: 1.3rem;
+            font-size: 1.9rem;
         }
     }
 
