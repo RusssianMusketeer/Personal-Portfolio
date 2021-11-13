@@ -15,7 +15,14 @@ const IMAGE_DATA = {
         src: 'https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/crown-clothing-ecommerce-store_optimized.herokuapp.com_+(1).png',
         title: 'crown'
 
-    }
+    },
+    jobiendo: {
+        id: 4,
+        src: 'https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/crown-clothing-ecommerce-store_optimized.herokuapp.com_+(1).png',
+        title: 'jobiendo'
+
+    },
+
 };
 
 export default IMAGE_DATA;

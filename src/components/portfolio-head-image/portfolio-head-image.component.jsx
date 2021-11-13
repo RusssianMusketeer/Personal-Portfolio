@@ -5,19 +5,20 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
 
-const PortfolioHeadImage =() => (
+const PortfolioHeadImage =({image}) => (
     <div className="carousel-container" >
+        {console.log(image)}
         <Carousel  class="carousel-main" showStatus={false} showThumbs={false} showArrows={true}>
                 <div>
-                    <img className="carousel-image" alt="homepage" src="https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/screen-shot-2021-08-16-at-3_optimized.52.55-pm.png" />
+                    <img className="carousel-image" alt="homepage" src={image.image_1} />
                     
                 </div>
                 <div>
-                    <img className="carousel-image" alt="homepage" src="https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/crown-clothing-ecommerce-store_optimized.herokuapp.com_+(1).png" />
+                    <img className="carousel-image" alt="homepage" src={image.image_2} />
                     
                 </div>
                 <div>
-                    <img className="carousel-image" alt="sneakers" src="https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/Sneakers+whitout-line.png" />
+                    <img className="carousel-image" alt="sneakers" src={image.image_3} />
                 </div>
             
         </Carousel>

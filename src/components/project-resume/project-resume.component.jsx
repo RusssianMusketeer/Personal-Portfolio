@@ -2,17 +2,18 @@ import React from 'react';
 import './project-resume.styles.scss';
 
 
-const ProjectResume = () => (
+const ProjectResume = ({text}) => (
     
     <div className="resume" >
-        <h1 className="crown-clothing-title">Crown Clothing</h1>
-        <p className="description">This project required me to build a fully responsive ecommerce website with some functionalities. I used React, along with Styled Components and Redux for the areas that required interactivity, such as the shopping cart.</p>
+        {console.log(text)}
+        <h1 className="crown-clothing-title">{text.title}</h1>
+        <p className="description">{text.project_resume_description}</p>
         <div className="skill-description">
-        <p className="tech">Interactive Design / Front End Development<br/>React /JS /Redux / Firebase/ Styled Components/Responsive </p>
+        <p className="tech">{text.project_resume_tech} </p>
         </div>
         <div className="crown-buttons">
-        <a  href="https://crown-clothing-ecommerce-store.herokuapp.com/" className="visit-website">VISIT WEBSITE</a>
-        <a  href="https://github.com/RusssianMusketeer/Crown-Clothing/tree/master/src" className="visit-website">VIEW CODE</a>
+        <a  href={text.project_resume_website_link} className="visit-website">VISIT WEBSITE</a>
+        <a  href={text.project_resume_code_link} className="visit-website">VIEW CODE</a>
         </div>
     </div>
     

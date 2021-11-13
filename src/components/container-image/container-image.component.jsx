@@ -1,9 +1,9 @@
 import React from 'react';
 import './container-image.styles.scss';
 
-const ContainerImage =({image,home}) => (
+const ContainerImage =({image,home,project}) => (
 
-<div className={home==="home" ? 'container-image-home': 'containe-image-portfolio'} style ={{backgroundImage: "url(" + image + ")"}} alt='about-me'>   
+<div className={home==="home" ? 'container-image-home': 'containe-image-portfolio-'+project} style ={{backgroundImage: "url(" + image + ")"}} alt='about-me'>   
  
  </div> 
 )
