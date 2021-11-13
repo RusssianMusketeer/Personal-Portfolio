@@ -34,11 +34,13 @@
               bottom: 47rem;
             }
             .title {
+              @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500;600&display=swap');
+              font-family: 'Ibarra Real Nova', serif;
               position: relative;
               width: 70%;
               color:#33323D;
               text-align: center;
-              font-family: "Ibarra Real Nova", serif;
+              
               letter-spacing: 3px;
               font-size: 3.5rem;
               margin:0 auto;
