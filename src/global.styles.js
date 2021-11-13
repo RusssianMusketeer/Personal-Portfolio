@@ -1,10 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
 body{
-    font-family: 'Public Sans Regular';
+    font-family: 'Public Sans Regular'!important;
     background-color:#FAFAFA;
     overflow-x: hidden;
 }
