@@ -17,7 +17,7 @@ const GetInTouch = () => (
         </p>
         
         <a  href='https://github.com/RusssianMusketeer'> <Git/> </a>
-        <a  href='https://ca.linkedin.com/'> <Link/>  </a> 
+        <a  href='https://www.linkedin.com/in/arseni-dmitriev-63b774225/'> <Link/>  </a> 
 
         </div>
 
