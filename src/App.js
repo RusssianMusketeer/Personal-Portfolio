@@ -42,7 +42,7 @@ class App extends Component {
       <GlobalStyles/>
       <Header/>
       <AnimatePresence exitBeforeEnter initial={false}>
-        <ScrollToTop/>
+      <ScrollToTop/>
       <Switch  key={location.pathname} location={location}>
         <Route exact path='/'><HomePage images={images} button={button_text} text={description_text}/> </Route>
         <Route exact path='/portfolio'><PortfolioIndex images={images} button={button_text} text={description_text}/> </Route>
@@ -52,10 +52,11 @@ class App extends Component {
         <Route exact path='/thank-you'><ThankYou/></Route>
         <Route exact path='/skills'><Skills/></Route>
       </Switch>
-      
       </AnimatePresence>
+      
       </div>
       <Footer/>
+      
     </div>
     )
   }
