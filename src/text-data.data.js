@@ -6,7 +6,7 @@ const TEXT_DATA = {
         project_background_text:"This was an e-commerce website, built with the idea of having a fully interactive shopping experience. This included the shopping cart and the payment method as well as a sign-in page. Made to be used with mobile and desktop designs in order to accommodate a shopping experience on any device. Creating this project has helped me refine my workflow and solve real-world coding problems. The component based approach of React was the ideal structure for the layout of an e-commerce website.",
         project_resume_description:"This project required me to build a fully responsive ecommerce website with some functionalities. I used React, along with Styled Components and Redux for the areas that required interactivity, such as the shopping cart.",
         project_resume_tech:"Interactive Design /Front End Development /React JS /Redux /Firebase /Styled Components/ Responsive",
-        project_resume_website_link:"https://crown-clothing-ecommerce-store.herokuapp.com/",
+        project_resume_website_link:"https://master.d23y19j19k67e9.amplifyapp.com/",
         project_resume_code_link:"https://github.com/RusssianMusketeer/Crown-Clothing/tree/master/src",
         image_1:"https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/screen-shot-2021-08-16-at-3_optimized.52.55-pm.png",
         image_2:"https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/crown-clothing-ecommerce-store_optimized.herokuapp.com_+(1).png",
