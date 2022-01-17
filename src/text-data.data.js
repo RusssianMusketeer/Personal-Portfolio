@@ -15,7 +15,7 @@ const TEXT_DATA = {
     about_me:{
         id:2,
         title:'About Me',
-        word:`I am a web developer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practises as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. When I am not programming I can be found in the gym.  I love being active and learning anything related to fitness. I also have a passion for video games and learning other languages. `,
+        word:`I am a web developer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practises as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
 
     },
     jobiendo:{
