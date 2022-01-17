@@ -11,7 +11,7 @@ import TEXT_DATA from './text-data.data';
 import ContactMePage from './pages/contact-me/contact-me.component';
 import {AnimatePresence} from 'framer-motion';
 import {withRouter} from 'react-router-dom'
-import CrownClothing from './pages/portfolio-detail-01-crown-clothing/portfolio-detail-01-crown-clothing.component';
+import MorningAroma from './pages/portfolio-detail-01-crown-clothing/portfolio-detail-01-crown-clothing.component';
 import ThankYou from './pages/thank-you/thank-you.component';  
 import Skills from './pages/skills/skills.component';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top.component';
@@ -47,7 +47,7 @@ class App extends Component {
         <Route exact path='/'><HomePage images={images} button={button_text} text={description_text}/> </Route>
         <Route exact path='/portfolio'><PortfolioIndex images={images} button={button_text} text={description_text}/> </Route>
         <Route exact path='/contact'> <ContactMePage/> </Route>
-        <Route exact path='/project-crown-clothing' > <CrownClothing text={description_text.crown_clothing} image={description_text.crown_clothing}/> </Route>
+        <Route exact path='/project-Morning_Aroma' > <MorningAroma text={description_text.crown_clothing} image={description_text.crown_clothing}/> </Route>
         <Route exact path='/jobiendo' > <Jobiendo text={description_text.jobiendo} image={description_text.jobiendo}/> </Route>
         <Route exact path='/thank-you'><ThankYou/></Route>
         <Route exact path='/skills'><Skills/></Route>

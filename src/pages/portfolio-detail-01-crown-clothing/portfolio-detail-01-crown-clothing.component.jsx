@@ -5,7 +5,7 @@ import PortfolioContainer from '../../components/portfolio-container/portfolio-c
 import CallToAction from '../../components/call-to-action/call-to-action.component';
 import { motion } from 'framer-motion';
 
-const CrownClothing =({text,image}) => (
+const MorningAroma =({text,image}) => (
     <motion.div
     initial={{ opacity: 0, x: -200 }}
     animate={{ opacity: 1, x: 0 }}
@@ -21,4 +21,4 @@ const CrownClothing =({text,image}) => (
 
 );
 
-export default CrownClothing;
+export default MorningAroma;

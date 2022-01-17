@@ -1,5 +1,4 @@
 import React from 'react';
-import './contact-me.styles.scss';
 import GetInTouch from '../../components/get-in-touch/get-in-touch.component';
 import GetInContact from '../../components/get-in-contact/get-in-contact.component';
 import { motion } from 'framer-motion';

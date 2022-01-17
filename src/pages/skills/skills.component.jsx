@@ -7,6 +7,10 @@ import { ReactComponent as ReactIcon} from '../../assets/react.svg';
 import { ReactComponent as Redux} from '../../assets/redux.svg';
 import { ReactComponent as Git} from '../../assets/git-icon.svg';
 import { ReactComponent as Responsive} from '../../assets/responsive.svg';
+import { ReactComponent as NodeJs} from '../../assets/nodejs.svg';
+import { ReactComponent as Express} from '../../assets/express.svg';
+import { ReactComponent as MangoDb} from '../../assets/mongodb.svg';
+import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
 import { motion } from 'framer-motion';
 
 
@@ -22,7 +26,7 @@ const Skills = () => (
 
         <div className="skills-container">
         <h1 className="skills-title">Skill Set</h1>
-        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Git, Responsive Design and more...</p>
+        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Node Js, Express, MangoDB,  Git, Responsive Design and more...</p>
         <div className="skill-display">
         <div className="wobble-hor-bottom ">     
         <Sass className="hover-icons"/>
@@ -31,10 +35,22 @@ const Skills = () => (
         <Javascript className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
+        <TypeScript className="hover-icons"/>
+        </div>
+        <div className="wobble-hor-bottom ">  
         <ReactIcon className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
         <Redux className="hover-icons"/>
+        </div>
+        <div className="wobble-hor-bottom ">  
+        <NodeJs className="hover-icons"/>
+        </div>
+        <div className="wobble-hor-bottom ">  
+        <Express className="hover-icons"/>
+        </div>
+        <div className="wobble-hor-bottom ">  
+        <MangoDb className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
         <Git className="hover-icons"/>
