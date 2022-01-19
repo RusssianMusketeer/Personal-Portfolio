@@ -7,7 +7,7 @@ const GetInContact = ()=> (
 <div className='get-in-contact-container'>
 <h1 className='get-in-contact-title'>Contact Me</h1>
         <div className="get-in-contact-form">
-            <form className='get-in-touch-text' action="https://formsubmit.com/a.devetriev@gmail.com" method="POST">
+            <form className='get-in-touch-text' action="https://formsubmit.co/a.devetriev@gmail.com" method="POST">
                 
                 <input type="hidden" name="_captcha" value="false"/>
                 <label for="name">Name</label>
