@@ -26,7 +26,7 @@ const Skills = () => (
 
         <div className="skills-container">
         <h1 className="skills-title">Skill Set</h1>
-        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Node Js, Express, MangoDB,  Git, Responsive Design and more...</p>
+        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Node.js, Express.js, MongoDB,  Git, Responsive Design and more...</p>
         <div className="skill-display">
         <div className="wobble-hor-bottom ">     
         <Sass className="hover-icons"/>
