@@ -3,7 +3,7 @@ import './project-resume.styles.scss';
 import { ReactComponent as Responsive} from '../../assets/responsive.svg';
 import { ReactComponent as NodeJs} from '../../assets/nodejs.svg';
 import { ReactComponent as Express} from '../../assets/express.svg';
-import { ReactComponent as MangoDb} from '../../assets/mongodb.svg';
+import { ReactComponent as MongoDb} from '../../assets/mongodb.svg';
 import { ReactComponent as Sass} from '../../assets/sass.svg';
 import { ReactComponent as Javascript} from '../../assets/javascript.svg';
 import { ReactComponent as ReactIcon} from '../../assets/react.svg';
@@ -18,7 +18,7 @@ import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
     responsive: Responsive,
     nodejs: NodeJs,
     express: Express,
-    mangodb: MangoDb,
+    mongodb: MongoDb,
     sass: Sass,
     react: ReactIcon,
     redux: Redux,

@@ -9,7 +9,7 @@ import { ReactComponent as Git} from '../../assets/git-icon.svg';
 import { ReactComponent as Responsive} from '../../assets/responsive.svg';
 import { ReactComponent as NodeJs} from '../../assets/nodejs.svg';
 import { ReactComponent as Express} from '../../assets/express.svg';
-import { ReactComponent as MangoDb} from '../../assets/mongodb.svg';
+import { ReactComponent as MongoDb} from '../../assets/mongodb.svg';
 import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
 import { motion } from 'framer-motion';
 
@@ -50,7 +50,7 @@ const Skills = () => (
         <Express className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
-        <MangoDb className="hover-icons"/>
+        <MongoDb className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
         <Git className="hover-icons"/>
