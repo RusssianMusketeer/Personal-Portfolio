@@ -16,7 +16,7 @@ This is my personal portfolio, containing my main works.
 
 This was my first project with react. I built it first whitout hooks, the old classical way.
 I integrated React, sass and framer motion. This was a general overview of a simple
-front-end project. Connect to my github and my linked in as well as my various projects.
+Front-end project. Connect to my GitHub and my linked in as well as my various projects.
 I learned the basics of building a React website.
 
 
