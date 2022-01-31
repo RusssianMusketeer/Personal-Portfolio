@@ -10,6 +10,9 @@ This is my personal portfolio, containing my main works.
 **Client:** React, Sass, Styled Components, Javascript
 
 
+## Screenshots
+
+![App Screenshot](https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/Personal+Portfolio.png)
 
 
 ## Lessons Learned
