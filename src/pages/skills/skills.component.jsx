@@ -11,6 +11,7 @@ import { ReactComponent as NodeJs} from '../../assets/nodejs.svg';
 import { ReactComponent as Express} from '../../assets/express.svg';
 import { ReactComponent as MongoDb} from '../../assets/mongodb.svg';
 import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
+import { ReactComponent as Docker} from '../../assets/docker.svg';
 import { motion } from 'framer-motion';
 
 
@@ -26,7 +27,7 @@ const Skills = () => (
 
         <div className="skills-container">
         <h1 className="skills-title">Skill Set</h1>
-        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Node.js, Express.js, MongoDB,  Git, Responsive Design and more...</p>
+        <p className="skills-text">These are the technologies I use to build various projects. I always try to improve my knowledge and learn something new with each new project.There can always be improvements made and new things to learn. I have experience and knowledge of Sass, JS, React JS, Redux, Node.js, Express.js, MongoDB, Docker, Git, Responsive Design and more...</p>
         <div className="skill-display">
         <div className="wobble-hor-bottom ">     
         <Sass className="hover-icons"/>
@@ -51,6 +52,9 @@ const Skills = () => (
         </div>
         <div className="wobble-hor-bottom ">  
         <MongoDb className="hover-icons"/>
+        </div>
+        <div className="wobble-hor-bottom ">  
+        <Docker className="hover-icons"/>
         </div>
         <div className="wobble-hor-bottom ">  
         <Git className="hover-icons"/>
