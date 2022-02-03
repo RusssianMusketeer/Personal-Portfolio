@@ -14,7 +14,7 @@ import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
 import { ReactComponent as Docker} from '../../assets/docker.svg';
 import { motion } from 'framer-motion';
 
-
+console.log("hello")
 const Skills = () => (
 
     <motion.div
